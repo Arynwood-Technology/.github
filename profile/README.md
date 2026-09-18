@@ -15,6 +15,17 @@ AI creative studio for Linux. Multi-persona AI chat, GPU-powered generation (ima
 voice, video, music), a knowledge base, and publishing tools, all running on your own
 hardware. Currently in **Linux alpha**.
 
+**[Cutroom](https://github.com/Arynwood-Technology/mcp-kdenlive)** — an AI-native video
+editor: a patched Kdenlive with a real scripting interface, wrapped in an MCP server
+exposing 183 tools so an AI agent can actually cut, arrange, and render a timeline
+instead of describing what to do next. The underlying engine
+([`kdenlive-api`](https://github.com/Arynwood-Technology/kdenlive-api)) is open source.
+Currently in **alpha**.
+
+**[LearnOS](https://github.com/Arynwood-Technology/LearnOS)** — a multi-user operating
+system built for children, parents, and teachers to share one machine, each with their
+own account and space instead of one login for everyone.
+
 ## Why local-first
 
 Your models, your projects, and your data on hardware you control. Optional features
