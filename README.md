@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../assets/logo.png" alt="Arynwood Technology" width="120" height="120">
+  <img src="./assets/logo.png" alt="Arynwood Technology" width="120" height="120">
 
   <h1>Arynwood Technology</h1>
 
