@@ -3,7 +3,7 @@
 
   <h1>Arynwood Technology</h1>
 
-  <p>Local-first AI creative tools built for people who want to own their workflow.</p>
+  <p>Local-first AI creative tools built for eliminating cloud-compute. User experiences for people who want to own their work, use AI as a tool, and have full control of their content without cloud dependence.</p>
 </div>
 
 ---
