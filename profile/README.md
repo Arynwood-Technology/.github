@@ -15,12 +15,13 @@ AI creative studio for Linux. Multi-persona AI chat, GPU-powered generation (ima
 voice, video, music), a knowledge base, and publishing tools, all running on your own
 hardware. Currently in **Linux alpha**.
 
+**[Community](https://github.com/Arynwood-Technology/arynwood-community)**  Private community software for messages, plans, household work, lists, notes, and host connections. Version 0.3.0.
+
+
 **[Cutroom](https://github.com/Arynwood-Technology/mcp-kdenlive)**  an AI-native video
 editor: a patched Kdenlive with a real scripting interface, wrapped in an MCP server
 exposing 183 tools so an AI agent can actually cut, arrange, and render a timeline
 instead of describing what to do next
-
-**[Community](https://github.com/Arynwood-Technology/arynwood-community)**  Private community software for messages, plans, household work, lists, notes, and host connections. Version 0.3.0.
 
 ## Why local-first
 
