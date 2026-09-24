@@ -20,10 +20,7 @@ editor: a patched Kdenlive with a real scripting interface, wrapped in an MCP se
 exposing 183 tools so an AI agent can actually cut, arrange, and render a timeline
 instead of describing what to do next. The underlying engine
 ([`kdenlive-api`](https://github.com/Arynwood-Technology/kdenlive-api)) is open source.
-Currently in **alpha**.
-
-**[LearnOS](https://github.com/Arynwood-Technology/LearnOS)** Education software built for teachers and homeschool families. Learn OS is a multi-user operating
-system built for children, parents, and teachers to share one cohesive system for managing assignments, schedules, and achievements. 
+Currently in **alpha**. 
 
 ## Why local-first
 
