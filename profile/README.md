@@ -18,9 +18,7 @@ hardware. Currently in **Linux alpha**.
 **[Cutroom](https://github.com/Arynwood-Technology/mcp-kdenlive)**  an AI-native video
 editor: a patched Kdenlive with a real scripting interface, wrapped in an MCP server
 exposing 183 tools so an AI agent can actually cut, arrange, and render a timeline
-instead of describing what to do next. The underlying engine
-([`kdenlive-api`](https://github.com/Arynwood-Technology/kdenlive-api)) is open source.
-Currently in **alpha**. 
+instead of describing what to do next
 
 ## Why local-first
 
