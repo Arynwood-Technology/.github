@@ -20,6 +20,8 @@ editor: a patched Kdenlive with a real scripting interface, wrapped in an MCP se
 exposing 183 tools so an AI agent can actually cut, arrange, and render a timeline
 instead of describing what to do next
 
+**[Community](https://github.com/Arynwood-Technology/arynwood-community)**  Private community software for messages, plans, household work, lists, notes, and host connections. Version 0.3.0.
+
 ## Why local-first
 
 Your models, your projects, and your data on hardware you control. Optional features
