@@ -34,6 +34,7 @@ LoRA trained on one SDXL checkpoint transfers to other SDXL derivatives, and why
 
 - [Local AI without a GPU: measured CPU speeds](https://arynwood.com/local-ai-cpu-only.html)
 - [Run local AI on Linux with Arynwood MCP](https://arynwood.com/local-ai-linux.html)
+- [Ollama benchmark data and script](https://github.com/Arynwood-Technology/local-ai-benchmarks): test your own machine and add a data point
 
 ## Why local-first
 
