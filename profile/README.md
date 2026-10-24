@@ -1,47 +1,61 @@
-<div align="center">
-  <img src="../assets/logo.png" alt="Arynwood Technology" width="120" height="120">
+# Arynwood Technology
 
-  <h1>Arynwood Technology</h1>
+Arynwood builds software for people who want their own community spaces, desktop AI and creative tools on hardware they control.
 
-  <p>Software solutions, personal AI for your desktop, and Linux tools. Built for your own desktop environment.</p>
+<img src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png" alt="Arynwood Technology" width="120" height="120">
 
-  <p><a href="https://arynwood.com/"><b>arynwood.com</b></a> · <a href="https://arynwood.com/#services">Setup services</a> · <a href="https://dev.arynwood.com/">Lorelei Noble</a></p>
-</div>
+I'm Lorelei, the developer behind Arynwood.
+I've built it over about three years, designing, testing and running it myself.
+I use AI assistants as pair programmers, and I decide the scope, review the work and ship the releases.
+I also operate the servers these projects run on.
 
----
+[Website](https://arynwood.com/) · [Setup services](https://arynwood.com/#services) · [Lorelei Noble](https://dev.arynwood.com/)
 
 ## What we build
 
-**[Arynwood MCP](https://arynwood.com/mcp/)**: a local-first AI workspace for the Linux desktop. Ollama chat,
-knowledge search with Qdrant, a design canvas and Model Context Protocol tool integrations, running on your own
-hardware. Models and supporting services are installed separately. Linux x86_64 alpha.
-[Try the browser demo](https://arynwood-technology.github.io/ArynwoodMCP/) · [Source](https://github.com/Arynwood-Technology/ArynwoodMCP)
+**[Arynwood Grove](https://github.com/Arynwood-Technology/arynwood-community)** — private community software
+for families, friends and teams: calendars, plans, boards, chat, tasks, lists and notes on a server you control.
+**v0.7.3** (2026-10-23), AGPL-3.0. Formerly Arynwood Community; Community 0.3 installs upgrade in place.
+[Visit Arynwood's Grove](https://community.arynwood.com/).
 
-**[Arynwood Cutroom](https://arynwood.com/cutroom/)**: an AI-assisted video editor built on Kdenlive. Describe an
-edit in plain language and a local model carries it out on your timeline, asking before each change. GPL-3.0, early
-alpha, Linux. [Source](https://github.com/Arynwood-Technology/Cutroom)
+**[Arynwood MCP](https://github.com/Arynwood-Technology/ArynwoodMCP)** — a local-first AI and creative workspace
+for one person's desktop. **v0.5.3** (2026-10-23): Linux x86_64 AppImage/.deb and Windows x64 installer,
+all alpha. Models and supporting services are separate.
+[Try the browser demo](https://arynwood-technology.github.io/ArynwoodMCP/).
 
-**[Arynwood Community](https://arynwood.com/community/)**: private chat spaces by invitation, plus mail, shared
-calendars, household lists, boards and notes on your own host. Version 0.3.0.
-[Source](https://github.com/Arynwood-Technology/arynwood-community)
+**[Cutroom](https://github.com/Arynwood-Technology/Cutroom)** — an AI-assisted video editor built on Kdenlive.
+**v0.1.0 pre-release** (2026-10-12), Linux Flatpak, GPL-3.0. The assistant's separate tool server
+is not published yet, so the downloaded editor cannot run that assistant on its own.
 
-**[SDXL LoRA portability study](https://arynwood.com/research/sdxl-lora-portability/)**: whether a subject-identity
-LoRA trained on one SDXL checkpoint transfers to other SDXL derivatives, and why it can't transfer to SD1.5. CC BY 4.0,
-[DOI 10.5281/zenodo.21282393](https://doi.org/10.5281/zenodo.21282393).
-[Source](https://github.com/Arynwood-Technology/arynwood-lora-training)
+**[Chat Window](https://github.com/Arynwood-Technology/arynwood-chat-window)** — a website chat window
+that answers from your public pages through a model you run. Alpha; tagged v0.2.0, no GitHub release,
+and not yet used with real visitors. AGPL-3.0.
+
+**[Open Knowledge](https://github.com/Arynwood-Technology/arynwood-open-knowledge)** — a local-first educational
+research and inclusive learning prototype. Browser-local records, public metadata search and documented
+limitations; no GitHub release. MIT.
+
+## Research
+
+**[SDXL LoRA portability study](https://github.com/Arynwood-Technology/arynwood-lora-training)** — whether a
+subject-identity LoRA trained on one SDXL checkpoint transfers to other SDXL derivatives, and why it can't transfer
+to SD1.5. Scripts, methodology and the two trained checkpoints; the personal training images are not public.
+CC BY 4.0, [DOI 10.5281/zenodo.21282393](https://doi.org/10.5281/zenodo.21282393).
+
+**[Local AI benchmarks](https://github.com/Arynwood-Technology/local-ai-benchmarks)** — measured Ollama
+generation speeds on ordinary hardware, CPU-only and GPU, and the script to test your own machine. MIT.
 
 ## Guides
 
 - [Local AI without a GPU: measured CPU speeds](https://arynwood.com/local-ai-cpu-only.html)
 - [Run local AI on Linux with Arynwood MCP](https://arynwood.com/local-ai-linux.html)
-- [Ollama benchmark data and script](https://github.com/Arynwood-Technology/local-ai-benchmarks): test your own machine and add a data point
+
+## How we build
+
+One developer, with Claude Code and Codex as pair programmers. [How we build](https://github.com/Arynwood-Technology/.github/blob/main/HOW-WE-BUILD.md)
+describes responsibility, assistant credit, checks and reporting problems.
 
 ## Why local-first
 
-Your models, your projects, and your data on hardware you control. Optional features
-that reach outside your machine (web search, publishing integrations) are exactly
-that: optional, and disclosed when they're used.
-
----
-
-<p align="center"><sub>© 2026 Arynwood Technology · <a href="https://arynwood.com/">arynwood.com</a></sub></p>
+Your projects and data belong on hardware you control. Network features still contact outside
+services when used; local-first does not mean an enforced offline mode.
