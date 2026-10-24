@@ -31,8 +31,7 @@ These are the workflows on the default branches, checked on 2026-10-24:
   the AppImage, checks for private configuration/database/memory files, smoke-tests the
   frozen backend, tests media in real WebKitGTK, and attaches the Windows installer.
   `deploy-demo.yml` deploys the demo to GitHub Pages. Attestations were added **after
-  0.5.3**; **0.5.4 will be the first release with them**. CodeQL and Scorecard are not
-  on main.
+  0.5.3**; **0.5.4 will be the first release with them**.
 - **Arynwood Grove:** only `release.yml`, triggered by tags. It checks the version,
   backend unittests, frontend lint and tests, and installer syntax, then packages,
   attests and publishes. **There is no push or PR CI.**
@@ -58,14 +57,12 @@ For ordinary problems, open an issue in the project concerned with the version, 
 steps and expected result. Remove private information. I review reports as time permits;
 I cannot promise an immediate reply or a release date.
 
-Read the repository's reporting policy before disclosing a vulnerability:
-[Arynwood MCP SECURITY.md](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/SECURITY.md),
-[Open Knowledge SECURITY.md](https://github.com/Arynwood-Technology/arynwood-open-knowledge/blob/main/SECURITY.md),
-and [Cutroom SECURITY.md](https://github.com/Arynwood-Technology/Cutroom/blob/main/SECURITY.md).
-MCP asks for GitHub private vulnerability reports. Open Knowledge asks for private reporting
-if enabled, otherwise a request for private contact without exploit details.
+Don't post a vulnerability in a public issue. Read the repository's SECURITY.md first; it
+says how to report privately:
+[Arynwood MCP](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/SECURITY.md),
+[Open Knowledge](https://github.com/Arynwood-Technology/arynwood-open-knowledge/blob/main/SECURITY.md)
+and [Cutroom](https://github.com/Arynwood-Technology/Cutroom/blob/main/SECURITY.md).
 
-Grove's SECURITY.md is still pending. Chat Window, the LoRA study and the benchmarks have
-no SECURITY.md on their default branches. Until a policy is published, use GitHub's private
-reporting if available, or ask for a private contact without posting exploit details or secrets.
-TODO(Lorelei): finish Grove's security policy and confirm private reporting for repos without one.
+Grove, Chat Window, the LoRA study and the benchmarks don't have a SECURITY.md yet. For those,
+open an issue asking for a private contact, without exploit details or secrets.
+TODO(Lorelei): publish Grove's security policy, and decide on one reporting channel for every repo.

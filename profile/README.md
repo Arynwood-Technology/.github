@@ -37,14 +37,18 @@ limitations; no GitHub release. MIT.
 
 ## Research
 
-**[SDXL LoRA portability study](https://github.com/Arynwood-Technology/arynwood-lora-training)** — scripts and
-methodology for subject-identity LoRA transfer across SDXL checkpoints. Personal training images are not public.
-GitHub's latest release is **0.1.1**; the README's v0.2.0 DOI label is unresolved.
-TODO(Lorelei): reconcile these versions. Declared CC BY 4.0; GitHub detects Other.
+**[SDXL LoRA portability study](https://github.com/Arynwood-Technology/arynwood-lora-training)** — whether a
+subject-identity LoRA trained on one SDXL checkpoint transfers to other SDXL derivatives, and why it can't transfer
+to SD1.5. Scripts, methodology and the two trained checkpoints; the personal training images are not public.
+CC BY 4.0, [DOI 10.5281/zenodo.21282393](https://doi.org/10.5281/zenodo.21282393).
 
-**[Local AI benchmarks](https://github.com/Arynwood-Technology/local-ai-benchmarks)** — measured local model
-speeds, tool behavior and scripts for checking ordinary hardware. MIT; no releases or test suite.
-[CPU guide](https://arynwood.com/local-ai-cpu-only.html).
+**[Local AI benchmarks](https://github.com/Arynwood-Technology/local-ai-benchmarks)** — measured Ollama
+generation speeds on ordinary hardware, CPU-only and GPU, and the script to test your own machine. MIT.
+
+## Guides
+
+- [Local AI without a GPU: measured CPU speeds](https://arynwood.com/local-ai-cpu-only.html)
+- [Run local AI on Linux with Arynwood MCP](https://arynwood.com/local-ai-linux.html)
 
 ## How we build
 
