@@ -23,3 +23,8 @@ Your models, your projects, and your data on hardware you control. Optional feat
 ---
 
 <p align="center"><sub>© 2026 Arynwood Technology</sub></p>
+
+## How this is built
+
+I design, test and operate Arynwood, using Claude Code and Codex as pair programmers.
+[How we build](HOW-WE-BUILD.md) records responsibility, checks and assistant credit.
