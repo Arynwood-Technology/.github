@@ -5,7 +5,7 @@ Arynwood builds software for people who want their own community spaces, desktop
 <img src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png" alt="Arynwood Technology" width="120" height="120">
 
 I'm Lorelei, the developer behind Arynwood.
-I've built it over about three years, designing, testing and running it myself.
+I've built it since mid-2025, starting with ArynCore, designing, testing and running it myself.
 I use AI assistants as pair programmers, and I decide the scope, review the work and ship the releases.
 I also operate the servers these projects run on.
 
@@ -20,7 +20,7 @@ for families, friends and teams: calendars, plans, boards, chat, tasks, lists an
 
 **[Arynwood MCP](https://github.com/Arynwood-Technology/ArynwoodMCP)** — a local-first AI and creative workspace
 for one person's desktop. **v0.5.3** (2026-10-23): Linux x86_64 AppImage/.deb and Windows x64 installer,
-all alpha. Models and supporting services are separate.
+all alpha. Open source under the AGPL-3.0 since October 2026. Models and supporting services are separate.
 [Try the browser demo](https://arynwood-technology.github.io/ArynwoodMCP/).
 
 **[Cutroom](https://github.com/Arynwood-Technology/Cutroom)** — an AI-assisted video editor built on Kdenlive.

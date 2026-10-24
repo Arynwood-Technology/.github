@@ -1,14 +1,15 @@
 # How we build
 
-I'm Lorelei. I've built Arynwood over about three years, designing, testing and running it
-myself. I design the architecture, decide the scope, review changes, run the tests, ship
+I'm Lorelei. I've built Arynwood since mid-2025, starting with ArynCore, designing, testing
+and running it myself. I design the architecture, decide the scope, review changes, run the tests, ship
 releases and operate the servers. This is a one-person project; I remain responsible for
 what I ship.
 
 Claude Code and Codex work with me as pair programmers. They help write and review code,
-documentation and tests; I decide what belongs in the project. Some commits carry a
-co-author trailer naming the assistant, and not every assisted commit does. Trailers are
-not a complete record of assistance. TODO(Lorelei): trailer policy from now on.
+documentation and tests; I decide what belongs in the project. Earlier commits in some
+repositories carry a co-author trailer naming the assistant; those stay in the history. From
+October 24, 2026, commits carry no AI attribution trailers. This page is the disclosure instead:
+treat any commit as possibly assisted, and as reviewed and shipped by me.
 
 The public [CLAUDE.md](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/CLAUDE.md)
 and [AGENTS.md](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/AGENTS.md)
@@ -32,10 +33,9 @@ These are the workflows on the default branches, checked on 2026-10-24:
   frozen backend, tests media in real WebKitGTK, and attaches the Windows installer.
   `deploy-demo.yml` deploys the demo to GitHub Pages. Attestations were added **after
   0.5.3**; **0.5.4 will be the first release with them**.
-- **Arynwood Grove:** only `release.yml`, triggered by tags. It checks the version,
-  backend unittests, frontend lint and tests, and installer syntax, then packages,
-  attests and publishes. **There is no push or PR CI.**
-  TODO(Lorelei): decide whether to add push/PR checks.
+- **Arynwood Grove:** `ci.yml` runs on pushes to main and pull requests: backend
+  unittests, frontend lint, tests and build, and an installer syntax check. `release.yml`
+  runs the same checks on tags, checks the version, then packages, attests and publishes.
 - **Chat Window:** `tests.yml` runs pytest on Python 3.10, 3.11 and 3.12 for main pushes
   and pull requests. It has a v0.2.0 tag, but no GitHub release.
 - **Open Knowledge:** `ci.yml` (Validate) runs `npm test`, the build, `npm run evaluate`
@@ -57,12 +57,13 @@ For ordinary problems, open an issue in the project concerned with the version, 
 steps and expected result. Remove private information. I review reports as time permits;
 I cannot promise an immediate reply or a release date.
 
-Don't post a vulnerability in a public issue. Read the repository's SECURITY.md first; it
-says how to report privately:
+Don't post a vulnerability in a public issue. Every repository here has GitHub's private
+vulnerability reporting turned on, and it is the one channel for all of them: open the
+repository's **Security** tab and choose **Report a vulnerability**.
+
+What to include is in each repository's SECURITY.md:
 [Arynwood MCP](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/SECURITY.md),
+[Arynwood Grove](https://github.com/Arynwood-Technology/arynwood-community/blob/main/SECURITY.md),
 [Open Knowledge](https://github.com/Arynwood-Technology/arynwood-open-knowledge/blob/main/SECURITY.md)
 and [Cutroom](https://github.com/Arynwood-Technology/Cutroom/blob/main/SECURITY.md).
-
-Grove, Chat Window, the LoRA study and the benchmarks don't have a SECURITY.md yet. For those,
-open an issue asking for a private contact, without exploit details or secrets.
-TODO(Lorelei): publish Grove's security policy, and decide on one reporting channel for every repo.
+The rest follow the [organization's security policy](SECURITY.md).
