@@ -48,6 +48,12 @@ These are the workflows on the default branches, checked on 2026-10-24:
   A full Kdenlive build is substantial; a documentation-only change gets link checks
   and an explicit statement when that build wasn't run.
 
+Arynwood MCP and Arynwood Grove also run **CodeQL** (security-extended queries) on every push
+and pull request to main and weekly, and **OpenSSF Scorecard** weekly and on every push to main,
+with its score public. **Dependabot** proposes dependency updates weekly; nothing merges by
+itself. The actions in those security workflows are pinned to exact commits. All eight
+repositories have **secret scanning with push protection** turned on.
+
 Passing checks say something about the cases they cover, not every use of an alpha.
 Each PR should say exactly what ran, what passed and what wasn't run.
 
