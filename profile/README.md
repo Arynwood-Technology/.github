@@ -1,13 +1,8 @@
 # Arynwood Technology
 
-Arynwood builds software for people who want their own community spaces, desktop AI and creative tools on hardware they control.
+Arynwood builds community spaces, desktop AI and creative tools on hardware you control.
 
 <img src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png" alt="Arynwood Technology" width="120" height="120">
-
-I'm Lorelei, the developer behind Arynwood.
-I've built it since mid-2025, starting with ArynCore, designing, testing and running it myself.
-I use AI assistants as pair programmers, and I decide the scope, review the work and ship the releases.
-I also operate the servers these projects run on.
 
 [Website](https://arynwood.com/) · [Setup services](https://arynwood.com/#services) · [Lorelei Noble](https://dev.arynwood.com/)
 
@@ -15,19 +10,19 @@ I also operate the servers these projects run on.
 
 **[Arynwood Grove](https://github.com/Arynwood-Technology/arynwood-community)** — private community software
 for families, friends and teams: calendars, plans, boards, chat, tasks, lists and notes on a server you control.
-**v0.7.3** (2026-10-23), AGPL-3.0. Formerly Arynwood Community; Community 0.3 installs upgrade in place.
+**v0.7.3**  AGPL-3.0. Formerly Arynwood Community; Community 0.3 installs upgrade in place.
 [Visit Arynwood's Grove](https://community.arynwood.com/).
 
 **[Arynwood MCP](https://github.com/Arynwood-Technology/ArynwoodMCP)** — a local-first AI and creative workspace
-for one person's desktop. **v0.5.3** (2026-10-23): Linux x86_64 AppImage/.deb and Windows x64 installer,
+for one person's desktop. **v0.5.3**: Linux x86_64 AppImage/.deb and Windows x64 installer,
 all alpha. Open source under the AGPL-3.0 since October 2026. Models and supporting services are separate.
 [Try the browser demo](https://arynwood-technology.github.io/ArynwoodMCP/).
 
-**[Cutroom](https://github.com/Arynwood-Technology/Cutroom)** — an AI-assisted video editor built on Kdenlive.
-**v0.1.0 pre-release** (2026-10-12), Linux Flatpak, GPL-3.0. The assistant's separate tool server
+**[Cutroom](https://github.com/Arynwood-Technology/Cutroom)** an AI-assisted video editor built on Kdenlive.
+**v0.1.0 pre-release** Linux Flatpak, GPL-3.0. The assistant's separate tool server
 is not published yet, so the downloaded editor cannot run that assistant on its own.
 
-**[Chat Window](https://github.com/Arynwood-Technology/arynwood-chat-window)** — a website chat window
+**[Chat Window](https://github.com/Arynwood-Technology/arynwood-chat-window)** a website chat window
 that answers from your public pages through a model you run. Alpha; tagged v0.2.0, no GitHub release,
 and not yet used with real visitors. AGPL-3.0.
 
