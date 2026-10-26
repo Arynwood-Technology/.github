@@ -27,10 +27,10 @@ your documents, design, audio, video and supervised tools, with your Grove insid
 the Community page. Open source under AGPL-3.0-only; desktop packages remain alpha.
 Models and supporting services are installed separately.
 
-**0.5.3 is published; 0.5.4 is in release preparation.** The candidate adds security
+**0.5.4 is published with signed checksums and verified provenance.** It adds security
 and recording fixes, hashed build dependencies and property fuzzing. Main now
 requires pull requests and passing backend, frontend, API-reference and Windows
-checks. Official package verification and owner signing remain publication gates.
+checks. Official package verification and owner signing passed before publication.
 
 [Downloads](https://github.com/Arynwood-Technology/ArynwoodMCP/releases/latest) · [Browser demo](https://arynwood-technology.github.io/ArynwoodMCP/) · [Security and limitations](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/SECURITY.md)
 
@@ -53,9 +53,9 @@ results and documented release checks. Their best-practices badges are still in
 progress. Some dependency and maintenance findings remain open; these are tracked,
 not hidden or presented as completed certification.
 
-Grove's 0.7.4 downloads have verified checksums and tagged-build attestations. MCP's
-0.5.4 process adds official Linux/Windows artifact verification and owner-signed
-checksums; that does not make the Windows installer code-signed.
+Grove's 0.7.4 downloads have verified checksums and tagged-build attestations. MCP 0.5.4
+adds verified Linux/Windows artifacts and owner-signed checksums. The Windows
+installer remains without Windows code signing.
 
 Each project's README and security policy describe its own scope. MCP is a
 single-owner desktop alpha, Grove is separately operated community software, and
