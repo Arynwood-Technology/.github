@@ -49,9 +49,10 @@ checks. Official package verification and owner signing passed before publicatio
 ## Where the projects stand
 
 Grove and MCP have automated tests, CodeQL analysis, public OpenSSF Scorecard
-results and documented release checks. Their best-practices badges are still in
-progress. Some dependency and maintenance findings remain open; these are tracked,
-not hidden or presented as completed certification.
+results and documented release checks. Grove and MCP have each earned the OpenSSF
+Best Practices Passing badge through a public project self-assessment. This is
+badge standing against published criteria, not a security certification. Dependency
+and maintenance findings are tracked separately.
 
 Grove's 0.7.4 downloads have verified checksums and tagged-build attestations. MCP 0.5.4
 adds verified Linux/Windows artifacts and owner-signed checksums. The Windows
