@@ -1,18 +1,18 @@
-<div align="center">
-  <img src="./assets/logo.png" alt="Arynwood Technology" width="120" height="120">
+# Arynwood Technology
 
-  <h1>Arynwood Technology</h1>
-</div>
+Community software and creative tools on hardware you control.
 
-This repository holds the organization's shared GitHub files:
+This repository holds Arynwood's shared GitHub pages and project guidance:
 
-- [`profile/README.md`](profile/README.md): the profile shown on
-  [github.com/Arynwood-Technology](https://github.com/Arynwood-Technology), with every project and its status.
-- [`HOW-WE-BUILD.md`](HOW-WE-BUILD.md): who builds Arynwood, how AI assistants are used, what checks each
-  project runs and how to report problems.
+- [Technology profile](profile/README.md): projects, published releases and current standing.
+- [How we build](HOW-WE-BUILD.md): maintenance responsibilities, checks and release practices.
+- [Security policy](SECURITY.md): private vulnerability reporting.
 
-Website: [arynwood.com](https://arynwood.com/)
+**Current releases:** [Grove 0.7.4](https://github.com/Arynwood-Technology/arynwood-community/releases/tag/v0.7.4)
+is published. [MCP 0.5.4](https://github.com/Arynwood-Technology/ArynwoodMCP/pull/36)
+is in release preparation; the latest published MCP release is 0.5.3.
+See the profile and individual repositories for verification steps and remaining limitations.
 
----
+[Website](https://arynwood.com/) · [GitHub organization](https://github.com/Arynwood-Technology)
 
-<p align="center"><sub>© 2026 Arynwood Technology</sub></p>
+© 2026 Arynwood Technology
