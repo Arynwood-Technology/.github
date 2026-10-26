@@ -74,8 +74,8 @@ the other projects have their own prototype or prerelease limits.
 
 ## Maintenance and ownership
 
-Lorelei Noble maintains Arynwood: scope, architecture, review, tests, releases and
-server operation. [How we build](https://github.com/Arynwood-Technology/.github/blob/main/HOW-WE-BUILD.md)
+One maintainer handles scope, architecture, review, tests, releases and server
+operation. [How we build](https://github.com/Arynwood-Technology/.github/blob/main/HOW-WE-BUILD.md)
 describes the process and reporting routes. Report vulnerabilities privately using
 the affected repository's Security tab.
 
