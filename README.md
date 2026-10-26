@@ -1,5 +1,7 @@
 # Arynwood Technology
 
+<p align="center"><img src="assets/logo.png" width="128" height="128" alt="Arynwood Technology" /></p>
+
 Community software and creative tools on hardware you control.
 
 This repository holds Arynwood's shared GitHub pages and project guidance:
