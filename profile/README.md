@@ -1,92 +1,263 @@
+````markdown
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png"
+  alt="Arynwood Technology"
+  width="240"
+/>
+
 # Arynwood Technology
 
+### Open Source · Local-First Software · Independent Infrastructure
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png"
-    alt="Arynwood Technology"
-    width="200"
-  />
-</p>
+**Community software and creative tools on hardware you control.**
 
-**Community software and creative tools on hardware you control.** Arynwood builds
-shared spaces for people, a personal desktop workspace, and tools for making and
-organizing creative work.
+We build self-hosted community platforms, personal AI workspaces,
+creative applications, and practical tools for independent computing.
 
-[Website](https://arynwood.com/) · [Setup services](https://arynwood.com/#services) · [Lorelei Noble](https://dev.arynwood.com/)
+Our work focuses on software ownership, open standards,
+transparent development, and infrastructure you can operate yourself.
 
-## The projects
+[Website](https://arynwood.com/) ·
+[Setup Services](https://arynwood.com/#services) ·
+[Developer](https://dev.arynwood.com/)
+
+</div>
+
+---
+
+## Featured Projects
 
 ### [Arynwood Grove](https://github.com/Arynwood-Technology/arynwood-community)
 
-A place for a group's calendars, conversations, files, plans and websites, on its
-own server. Members use their browsers; owners choose the people, spaces and look.
-**0.7.4 is published**, with verified release delivery and build-provenance
-attestations. Open source under the AGPL-3.0. Formerly Arynwood Community;
-Community 0.3 installations can upgrade in place.
+**Self-hosted community software.**
 
-[Downloads](https://github.com/Arynwood-Technology/arynwood-community/releases/latest) · [Manual](https://github.com/Arynwood-Technology/arynwood-community/blob/main/docs/MANUAL.md) · [Visit Arynwood's Grove](https://community.arynwood.com/)
+Grove brings a group's calendars, conversations, files, plans,
+and websites together on its own server.
+
+Members access their community through a browser, while owners
+manage membership, spaces, and appearance.
+
+**Latest release: v0.7.4**
+
+- Self-hosted community infrastructure
+- Browser-based collaboration
+- Configurable membership and community spaces
+- Verified release delivery and build-provenance attestations
+- Open source under AGPL-3.0
+
+Formerly Arynwood Community. Existing Community 0.3
+installations can upgrade in place.
+
+[Source](https://github.com/Arynwood-Technology/arynwood-community) ·
+[Downloads](https://github.com/Arynwood-Technology/arynwood-community/releases/latest) ·
+[Manual](https://github.com/Arynwood-Technology/arynwood-community/blob/main/docs/MANUAL.md) ·
+[Community](https://community.arynwood.com/)
+
+---
 
 ### [Arynwood MCP](https://github.com/Arynwood-Technology/ArynwoodMCP)
 
-A personal AI and creative workspace for Linux and Windows desktops: local models,
-your documents, design, audio, video and supervised tools, with your Grove inside
-the Community page. Open source under AGPL-3.0-only; desktop packages remain alpha.
-Models and supporting services are installed separately.
+**A personal AI and creative workspace for your desktop.**
 
-**0.5.4 is published with signed checksums and verified provenance.** It adds security
-and recording fixes, hashed build dependencies and property fuzzing. Main now
-requires pull requests and passing backend, frontend, API-reference and Windows
-checks. Official package verification and owner signing passed before publication.
+Arynwood MCP brings local AI models, documents, design,
+audio, video, and supervised tools into a unified desktop environment.
 
-[Downloads](https://github.com/Arynwood-Technology/ArynwoodMCP/releases/latest) · [Browser demo](https://arynwood-technology.github.io/ArynwoodMCP/) · [Security and limitations](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/SECURITY.md)
+Available for Linux and Windows, with Grove accessible
+through its integrated Community page.
 
-### More work in progress
+**Latest release: v0.5.4 — Alpha**
 
-- **[Cutroom](https://github.com/Arynwood-Technology/Cutroom):** a Kdenlive-based video editor,
-  with a Linux Flatpak **0.1.0 prerelease**, GPL-3.0. The separate assistant tool
-  server is not yet published; the editor download does not supply that service.
-- **[Chat Window](https://github.com/Arynwood-Technology/arynwood-chat-window):** website chat
-  grounded in public pages through a model you run. Alpha, tagged 0.2.0; no published
-  GitHub release. AGPL-3.0.
-- **[Open Knowledge](https://github.com/Arynwood-Technology/arynwood-open-knowledge):** an
-  educational research and inclusive-learning prototype with browser-local records
-  and public metadata search. No published release. MIT.
+- Local AI model integration
+- Document and creative workflows
+- Supervised tool execution
+- Linux and Windows desktop packages
+- Signed checksums and verified build provenance
+- Open source under AGPL-3.0-only
 
-## Where the projects stand
+Version 0.5.4 includes security and recording fixes,
+hashed build dependencies, and property-based fuzz testing.
 
-Grove and MCP have automated tests, CodeQL analysis, public OpenSSF Scorecard
-results and documented release checks. Grove and MCP have each earned the OpenSSF
-Best Practices Passing badge through a public project self-assessment. This is
-badge standing against published criteria, not a security certification. Dependency
-and maintenance findings are tracked separately.
+The main branch requires pull requests and passing backend,
+frontend, API-reference, and Windows checks.
 
-Grove's 0.7.4 downloads have verified checksums and tagged-build attestations. MCP 0.5.4
-adds verified Linux/Windows artifacts and owner-signed checksums. The Windows
-installer remains without Windows code signing.
+Official package verification and owner signing passed
+before publication.
 
-Each project's README and security policy describe its own scope. MCP is a
-single-owner desktop alpha, Grove is separately operated community software, and
-the other projects have their own prototype or prerelease limits.
+**Current limitations:** Desktop packages remain alpha.
+Models and supporting services must be installed separately.
 
-## Research and guides
+[Source](https://github.com/Arynwood-Technology/ArynwoodMCP) ·
+[Downloads](https://github.com/Arynwood-Technology/ArynwoodMCP/releases/latest) ·
+[Browser Demo](https://arynwood-technology.github.io/ArynwoodMCP/) ·
+[Security](https://github.com/Arynwood-Technology/ArynwoodMCP/blob/main/SECURITY.md)
 
-- **[SDXL LoRA portability study](https://github.com/Arynwood-Technology/arynwood-lora-training):**
-  subject-identity transfer between SDXL derivatives, with scripts, methodology and
-  trained checkpoints. Personal training images are not public. CC BY 4.0;
-  [DOI 10.5281/zenodo.21282393](https://doi.org/10.5281/zenodo.21282393).
-- **[Local AI benchmarks](https://github.com/Arynwood-Technology/local-ai-benchmarks):** measured
-  CPU and GPU generation speeds, with scripts to test your own machine. MIT.
-- [Local AI without a GPU](https://arynwood.com/local-ai-cpu-only.html).
-- [Run local AI on Linux](https://arynwood.com/local-ai-linux.html).
+---
 
-## Maintenance and ownership
+## Software in Development
 
-One maintainer handles scope, architecture, review, tests, releases and server
-operation. [How we build](https://github.com/Arynwood-Technology/.github/blob/main/HOW-WE-BUILD.md)
-describes the process and reporting routes. Report vulnerabilities privately using
-the affected repository's Security tab.
+Projects at different stages of development, from early
+prototypes to downloadable prereleases.
 
-Your projects and data belong on hardware you control. Network features still
-contact their configured services when used; local-first does not imply an
-enforced offline mode.
+| Project | Description | Status | License |
+|:---|:---|:---|:---|
+| [Cutroom](https://github.com/Arynwood-Technology/Cutroom) | Kdenlive-based video editor | v0.1.0 prerelease | GPL-3.0 |
+| [Chat Window](https://github.com/Arynwood-Technology/arynwood-chat-window) | Website chat grounded in public pages using a self-hosted model | v0.2.0 alpha | AGPL-3.0 |
+| [Open Knowledge](https://github.com/Arynwood-Technology/arynwood-open-knowledge) | Educational research and inclusive-learning prototype | Prototype | MIT |
+
+### Development Notes
+
+**Cutroom**
+
+A Kdenlive-based video editor with a Linux Flatpak
+prerelease available.
+
+The separate assistant tool server has not yet been published.
+The editor download does not include that service.
+
+**Chat Window**
+
+An experimental website chat application that uses a model
+you operate to answer questions grounded in public website content.
+
+Version 0.2.0 is tagged, but no GitHub release has been published.
+
+**Open Knowledge**
+
+An educational research prototype exploring inclusive learning,
+browser-local records, and public metadata search.
+
+No published release is currently available.
+
+---
+
+## Research & Technical Guides
+
+Research, benchmarks, and practical documentation
+for open-source development and local computing.
+
+### Research Repositories
+
+**[SDXL LoRA Portability Study](https://github.com/Arynwood-Technology/arynwood-lora-training)**
+
+Research into subject-identity transfer between SDXL derivatives.
+
+Includes reproducible scripts, methodology, and trained checkpoints.
+Personal training images are not publicly distributed.
+
+License: CC BY 4.0
+
+[Research Repository](https://github.com/Arynwood-Technology/arynwood-lora-training) ·
+[DOI: 10.5281/zenodo.21282393](https://doi.org/10.5281/zenodo.21282393)
+
+**[Local AI Benchmarks](https://github.com/Arynwood-Technology/local-ai-benchmarks)**
+
+CPU and GPU inference performance measurements,
+with scripts for benchmarking local AI models
+on your own hardware.
+
+License: MIT
+
+[Benchmark Repository](https://github.com/Arynwood-Technology/local-ai-benchmarks)
+
+### Technical Guides
+
+- [Running Local AI Without a GPU](https://arynwood.com/local-ai-cpu-only.html)
+- [Running Local AI on Linux](https://arynwood.com/local-ai-linux.html)
+
+---
+
+## Engineering & Release Practices
+
+Arynwood Technology develops and maintains its software
+using documented engineering, testing, and release processes.
+
+### Security & Quality
+
+Grove and MCP include:
+
+- Automated test suites
+- CodeQL static analysis
+- Public OpenSSF Scorecard results
+- Documented release verification
+- OpenSSF Best Practices Passing badges
+
+Both projects have earned the OpenSSF Best Practices
+**Passing** badge through public project self-assessments.
+
+These badges represent standing against published
+best-practice criteria. They are not security certifications.
+
+Dependency and maintenance findings are tracked separately.
+
+### Release Verification
+
+| Project | Release | Verification |
+|:---|:---|:---|
+| Arynwood Grove | v0.7.4 | Verified checksums and tagged-build attestations |
+| Arynwood MCP | v0.5.4 | Verified Linux/Windows artifacts and owner-signed checksums |
+
+**Important:** The MCP Windows installer does not currently
+have Windows code signing.
+
+Each repository documents its own security policy,
+supported functionality, and known limitations.
+
+---
+
+## Development & Maintenance
+
+Arynwood Technology is independently developed and maintained.
+
+A single maintainer oversees:
+
+- Software architecture and implementation
+- Code review and automated testing
+- Release preparation and verification
+- Infrastructure and server operations
+- Security reporting and maintenance
+
+Our development process, contribution expectations,
+and reporting routes are documented here:
+
+**[How We Build](https://github.com/Arynwood-Technology/.github/blob/main/HOW-WE-BUILD.md)**
+
+Security vulnerabilities should be reported privately
+through the affected repository's **Security** tab.
+
+### Project Maturity
+
+Arynwood MCP is a single-owner desktop application in alpha.
+
+Arynwood Grove is independently operated community software.
+
+Other repositories have their own prototype, alpha,
+or prerelease limitations.
+
+Refer to individual project documentation before deployment.
+
+---
+
+<div align="center">
+
+## Independent Software. Your Infrastructure.
+
+We believe people should be able to understand,
+modify, maintain, and operate the software they depend on.
+
+**Your projects and data belong on hardware you control.**
+
+Local-first does not mean every feature operates offline.
+Network functionality may contact configured services when used.
+
+---
+
+[Website](https://arynwood.com/) ·
+[GitHub](https://github.com/Arynwood-Technology) ·
+[Developer](https://dev.arynwood.com/)
+
+<sub>Built and maintained by Arynwood Technology.</sub>
+
+</div>
+```` 
