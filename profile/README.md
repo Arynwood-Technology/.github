@@ -12,6 +12,7 @@
 **Community software and creative tools on hardware you control.** Arynwood builds
 shared spaces for people, a personal desktop workspace, and tools for making and
 organizing creative work.
+
 [Website](https://arynwood.com/) · [Setup services](https://arynwood.com/#services) · [Lorelei Noble](https://dev.arynwood.com/)
 
 ## The projects
