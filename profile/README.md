@@ -4,7 +4,7 @@
 shared spaces for people, a personal desktop workspace, and tools for making and
 organizing creative work.
 
-<img src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png" alt="Arynwood Technology" width="120" height="120">
+<img src="https://raw.githubusercontent.com/Arynwood-Technology/.github/main/assets/logo.png" alt="Arynwood Technology" width="200" height="200">
 
 [Website](https://arynwood.com/) · [Setup services](https://arynwood.com/#services) · [Lorelei Noble](https://dev.arynwood.com/)
 
