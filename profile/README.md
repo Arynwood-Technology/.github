@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
 
 <img
@@ -260,4 +259,3 @@ Network functionality may contact configured services when used.
 <sub>Built and maintained by Arynwood Technology.</sub>
 
 </div>
-```` 
